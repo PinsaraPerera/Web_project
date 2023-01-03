@@ -148,6 +148,101 @@ body {
     line-height: 35px;
 }
 
+
+@media screen and (max-width:660px) {
+    .about{
+        align-items: stretch;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        background:url("/about_page/images_about/logo.png");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        position: relative;
+        border: black 2px solid;
+        }
+
+    .main img{
+        display: none; 
+        z-index: -1;
+    }
+
+    .about-txt{
+    flex: 1;
+    padding: 15px 10px 15px 10px;
+    font-family: "Roboto";
+    }
+
+    .about-txt h1 {
+        font-size: 35px;
+        color: #08fdd8;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .about-txt h5 {
+        font-size: 30px;
+        color: #fff;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .about-txt p {
+        font-size: 20px;
+        color: #aaa;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .box-a {
+        align-items: stretch;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        background: rgb(29, 29, 29);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        position: relative;
+        border: black 2px solid;
+    }
+
+    .text {
+        flex: 1;
+        padding: 15px 10px 15px 10px;
+        font-family: "Roboto";
+    }
+
+    .text h1 {
+        font-size: 35px;
+        color: #08fdd8;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .text p {
+        font-size: 20px;
+        color: #aaa;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .image-1 {
+        width: 100%;
+        height: auto;
+        opacity: 0.7;
+    }
+
+    .box-a:hover {
+        border: #08fdd8 2px solid;
+        box-sizing: border-box;
+        background-color: rgb(23, 22, 22);
+    }
+}
+
 /*Footer Styling*/
 footer{
     color: #fff;
