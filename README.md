@@ -6,7 +6,7 @@ Group Members:
 
 02.Tharindu Damruwan - CS/2020/033 - Home page
 
-03.Pinsara Perera - CS/2020/005 - Careers page
+03.Pinsara Perera - CS/2020/005 - Careers page & backend
 
 04.Shehan Suraweera - CS/2020/016 - Contact page
 
