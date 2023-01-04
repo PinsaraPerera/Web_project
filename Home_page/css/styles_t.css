@@ -70,7 +70,7 @@ header{
   .wave {
     width: 5px;
     height: 100px;
-    background: linear-gradient(45deg, cyan, #fff);
+    background: linear-gradient(45deg, #fff, #181818 , #08fdd8);
     margin: 10px;
     animation: wave 0.75s linear infinite;
     border-radius: 20px;
@@ -607,9 +607,7 @@ header{
 /*Footer Styling*/
 footer{
     color: #fff;
-    background: linear-gradient(-45deg,#000000,#2e2e2e,#000000,rgb(23, 22, 22));
     background-size: 400% 400%;
-    position:calc(75%);
     margin-left: 169px;
     width: 90%;
     height: 100%;
@@ -686,7 +684,6 @@ footer{
 input[type=mail]{
     border: none;
     padding-bottom: 5px;
-    border-bottom: 1px solid #fff;
     background-color: transparent;
     font-size: 0.8rem;
     color: #ffffff;
