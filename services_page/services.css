@@ -17,7 +17,6 @@ body {
 }
 
 .navbar {
-    /*background-image: linear-gradient(to right, rgb(130, 131, 219), rgb(223, 96, 149));*/
     color:  #08fdd8;
     background-color: rgb(29, 29, 29);  
     position: relative;
@@ -196,7 +195,6 @@ body {
     background: #2e2e2e;
     color: var(--clr);
  }
-
 
 /*Media Queries For service details*/
 
@@ -565,11 +563,11 @@ footer{
     }
     
     .f-main{
-    margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
-   }
+        margin: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
     
     .logo{
       grid-column: 1/3;
@@ -610,7 +608,7 @@ footer{
     gap: 20px;
     font-size: 1.2rem;
     line-height: 1.3rem;
-  }
+}
 
 .office-address a{
     text-decoration: none;

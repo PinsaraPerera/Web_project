@@ -17,7 +17,6 @@ body {
 }
 
 .navbar {
-    /*background-image: linear-gradient(to right, rgb(130, 131, 219), rgb(223, 96, 149));*/
     color:  #08fdd8;
     background-color: rgb(29, 29, 29);  
     position: relative;
@@ -148,7 +147,6 @@ body {
     line-height: 35px;
 }
 
-
 @media screen and (max-width:660px) {
     .about {
         align-items: stretch;
@@ -270,11 +268,11 @@ footer{
     }
     
     .f-main{
-    margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
-   }
+        margin: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
     
     .logo{
       grid-column: 1/3;
