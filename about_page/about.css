@@ -150,29 +150,30 @@ body {
 
 
 @media screen and (max-width:660px) {
-    .about{
+    .about {
         align-items: stretch;
         margin-top: 20px;
         margin-bottom: 10px;
         width: 100%;
-        background:url("/about_page/images_about/logo.png");
+        background: url("/about_page/images_about/logo2.png");
+        background-size: 100% 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         z-index: 2;
         position: relative;
         border: black 2px solid;
-        }
+    }
 
-    .main img{
-        display: none; 
+    .main img {
+        display: none;
         z-index: -1;
     }
 
-    .about-txt{
-    flex: 1;
-    padding: 15px 10px 15px 10px;
-    font-family: "Roboto";
+    .about-txt {
+        flex: 1;
+        padding: 15px 10px 15px 10px;
+        font-family: "Roboto";
     }
 
     .about-txt h1 {
@@ -184,18 +185,18 @@ body {
 
     .about-txt h5 {
         font-size: 30px;
-        color: #fff;
+        color: #ffffff;
         padding-bottom: 10px;
         text-align: center;
     }
 
     .about-txt p {
         font-size: 20px;
-        color: #aaa;
+        color: rgb(219, 218, 218);
         line-height: 25px;
         text-align: center;
     }
-    
+
     .box-a {
         align-items: stretch;
         margin-top: 20px;
