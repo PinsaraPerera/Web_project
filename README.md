@@ -11,3 +11,5 @@ Group Members:
 04.Shehan Suraweera - CS/2020/016 - Contact page
 
 05.Yasisuru Pathum Viduruwan - CS/2020/006 - Store page
+
+page link: https://pinsaraperera.github.io/Web_project/home
